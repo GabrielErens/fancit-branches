@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Branches</title>
+
+    <!--******************************** css style sheet link *********************-->
+    <link rel="stylesheet" href="mainstyle.css" />
+
+    <!--******************************** google font link *********************-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body onresize="lgnav()">
+    <main class="mainLayout">
+      <nav class="mainNav --mainNavStyle">
+        <ul class="mainNav__ul__logo">
+          <li>
+            <a href="#">
+              <img src="/Images/Group 8 (1).svg" alt="Fancit logo">
+              
+            </a>
+          </li>
+          <li>
+              <button class="mainNav__burger__btn" onclick="mobile_nav_bar()">
+            <div class="burger_menu_onclick">
+              <div class="burger_menu__icon"></div>
+              <div class="burger_menu__icon"></div>
+              <div class="burger_menu__icon"></div>
+            </div>
+        </button>
+          </li>
+        </ul>
+        <ul class="mainNav__ul__aTags mainNav__ul__aTags--Style"  id="mobileNav">
+          <li>
+            <a href="#">Onze belofte</a>
+          </li>
+          <li>
+            <a href="#">Pakketten</a>
+          </li>
+          <li>
+            <a href="#">Branches</a>
+          </li>
+          <li>
+            <a href="#">Over ons</a>
+          </li>
+          <li>
+            <a href="#">Nieuws</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="Hero_text">
+        <h1 class="Hero_text__h1">Branches</h1>
+        <p class="Hero_text__p">
+          “FancIT biedt zekerheid & beschikbaarheid over de continuïteit van uw
+          complete ICT-omgeving. Voor een vast bedrag per maand verlenen wij
+          ondersteuning en verzorgen we pro-actieve én preventieve installaties
+          & controles voor al uw ICT-facetten. We monitoren uw ICT-omgeving
+          24/7, afhankelijk van uw pakket ondernemen we actie. Kortom, we zorgen
+          dat uw systemen draaien en nemen daar onze verantwoordelijkheid voor.
+          Daarmee zijn wij systeembeheerder, IT-specialist en supportconsultant
+          in één.
+        </p>
+      </section>
+      <section class="cards">
+        <div class="cards__light-purple cards--style">
+          <h1 class="cards__h1">ICT voor groothandels</h1>
+          <img
+            class="cards__img"
+            src="/Images/Group 29.svg"
+            alt="Arrow to the right"
+          />
+        </div>
+
+        <div class="cards__light-blue cards--style">
+          <h1 class="cards__h1">ICT voor huisartsen</h1>
+          <img
+            class="cards__img"
+            src="/Images/Group 29.svg"
+            alt="Arrow to the right"
+          />
+        </div>
+
+        <div class="cards__green cards--style">
+          <h1 class="cards__h1">ICT voor food en agro</h1>
+          <img
+            class="cards__img"
+            src="/Images/Group 29.svg"
+            alt="Arrow to the right"
+          />
+        </div>
+
+        <div class="cards__mustard cards--style">
+          <h1 class="cards__h1">ICT voor industrie</h1>
+          <img
+            class="cards__img"
+            src="/Images/Group 29.svg"
+            alt="Arrow to the right"
+          />
+        </div>
+
+        <div class="cards__darkpurple cards--style">
+          <h1 class="cards__h1">ICT voor uw bedrijf</h1>
+          <img
+            class="cards__img"
+            src="/Images/Group 29.svg"
+            alt="Arrow to the right"
+          />
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__possition">
+          <h3 class="footer__h3">Locatie Kootwijkerbroek</h3>
+          <p class="footer__p">
+            0342 745 020
+            <br />
+            support@fancit.nl
+          </p>
+        </div>
+
+        <div class="footer__possition">
+          <h3 class="footer__h3">Locatie Krabbendijke</h3>
+          <p class="footer__p">
+            0113 501 414
+            <br />
+            support@fancit.nl
+          </p>
+        </div>
+
+        <div class="footer__possition">
+          <h3 class="footer__h3__Support">Support</h3>
+          <ul class="footer__ul">
+            <li class="footer__li">
+              <a class="footer__a" href="#">Helpmij</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__a" href="#">Klantportaal</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__a" href="#">Storingen</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__possition">
+          <img
+            class="footer__img_professionalwifi"
+            src="/Images/Image 1.png"
+            alt=""
+          />
+          <div class="footer__social-media">
+            <img src="/Images/Image 2.png" alt="LinkedIn" />
+            <img src="/Images/Group 20 (1).svg" alt="Facebook" />
+            <img src="/Images/Group 19 (1).svg" alt="Instagram" />
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="/mainJavaSript.js"></script>
+  </body>
+</html>
